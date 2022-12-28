@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class QueryPokemons
   def initialize
     @service = PokemonService.new(repository: PokemonRepository.new)

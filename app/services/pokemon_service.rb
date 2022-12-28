@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PokemonService
   def initialize(repository:)
     @repository = repository
